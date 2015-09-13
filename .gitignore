@@ -1,0 +1,15 @@
+Gemfile.lock
+test/dest
+*.gem
+pkg/
+*.swp
+*~
+_site/
+.bundle/
+.DS_Store
+.ruby-version
+.ruby-gemset
+.sass-cache
+tmp/*
+/vendor
+*.ical

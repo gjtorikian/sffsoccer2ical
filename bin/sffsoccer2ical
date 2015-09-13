@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+STDOUT.sync = true
+
+$LOAD_PATH.unshift File.join(File.dirname(__FILE__), *%w( .. lib ))
+
+require 'sffsoccer2ical'
+require 'trollop'
+
+opts = Trollop.options do
+  opt :team, 'The name of your team.', :type => :string
+end
+
+SFFSoccer2ICal.new(opts).process
