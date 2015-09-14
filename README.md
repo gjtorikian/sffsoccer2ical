@@ -1,6 +1,6 @@
 # sffsoccer2ical
 
-This program will take the [SFF Soccer](http://www.sffsoccer.com/) schedule and, given your team name, generate an iCal file for you.
+This program will take the [SFF Soccer](http://www.sffsoccer.com/) schedule and, given your team name, generate an ics file for you.
 
 ## Usage
 

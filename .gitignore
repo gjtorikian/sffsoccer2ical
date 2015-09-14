@@ -12,4 +12,4 @@ _site/
 .sass-cache
 tmp/*
 /vendor
-*.ical
+*.ics

@@ -41,7 +41,7 @@ class SFFSoccer2ICal
     end
 
     ical = generate_ical(matches)
-    File.write('games.ical', ical)
+    File.write('games.ics', ical)
   end
 
   def generate_ical(matches)
