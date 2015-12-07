@@ -3,6 +3,7 @@ STDOUT.sync = true
 
 $LOAD_PATH.unshift File.join(File.dirname(__FILE__), *%w( .. lib ))
 
+require 'bundler/setup'
 require 'sffsoccer2ical'
 require 'trollop'
 

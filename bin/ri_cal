@@ -13,4 +13,4 @@ ENV['BUNDLE_GEMFILE'] ||= File.expand_path("../../Gemfile",
 require 'rubygems'
 require 'bundler/setup'
 
-load Gem.bin_path('ri_cal', 'ri_cal')
+load Gem.bin_path('sffsoccer2ical', 'ri_cal')
